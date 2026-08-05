@@ -1,0 +1,314 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente */
+    line-height: 1.6;   /* Espacio entre las líneas */
+    background-color: #f4f4f4; /* Fondo de la página */
+    color: #f0d0ff; /* Color del texto */
+    margin: 0;
+    padding: 30px 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #4b545f;
+    line-height: 1.6;
+}      
+
+/*Encabezado*/
+
+header {
+    background-color: #6a91da;
+    text-align: center;
+    color: white;
+    padding: 20px 40px;
+}
+
+.header_content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+
+header h1 {
+    color: white;
+    font-size: 28px;
+}
+nav ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #FFD700;
+}
+
+
+/* Sección de inicio */
+#inicio{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#inicio h2{
+    color: #6a91da;
+}
+/* Contenedor */
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Primera imagen */
+#inicio .foto-perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;      /* Hace la imagen circular */
+    object-fit: cover;       /* Evita que se deforme */
+    border: 6px solid #467bddb9; /* Borde */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Sombra */
+    margin-bottom: 20px;
+}
+
+/*Secciones*/
+
+section {
+    padding: 50px;
+    }
+section h2{
+    text-align: center;
+    color: #6a91da;
+    }
+/*Tarjetas*/
+article{
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    }
+
+#sobre-mi .foto-perfil{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid rgba(37, 116, 189, 0.74);
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+#sobre-mi p{
+    text-align: center;
+}
+
+/* Todas las imágenes de las secciones */
+.hobby-grid img,
+.hobby-card img,
+.proyecto img{
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid #3575ebdc;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    display: block;
+    margin: 10px auto;
+}
+
+/* ===== SECCIÓN EDUCACIÓN ===== */
+#educacion{
+    padding: 50px 20px;
+    background: #f8f4ff;
+    text-align: center;
+}
+
+#educacion h2{
+    color: #6a91da;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de las tarjetas */
+.educacion-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Tarjetas */
+.educacion-item{
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.educacion-item:hover{
+    transform: translateY(-8px);
+}
+
+.educacion-item h3{
+    color: #6a91da;
+    margin-bottom: 15px;
+}
+
+.educacion-item p{
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Coloca los dos cuadros uno al lado del otro */
+.sobre-mi-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Cuadro de Filosofía de trabajo */
+.sobre-mi-texto{
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Cuadro de Habilidades Técnicas */
+.habilidades-lateral{
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== SECCIÓN CONTACTO ===== */
+#contacto{
+    padding: 50px 20px;
+    background: #f8f4ff;
+    text-align: center;
+}
+
+#contacto h2{
+    color: #6a91da;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.info-contacto{
+    width: 600px;
+    max-width: 90%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+}
+
+.info-contacto h3{
+    color: #6a91da;
+    margin-bottom: 15px;
+}
+
+.info-contacto p{
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.info-contacto a{
+    color: #4279dfce;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-contacto a:hover{
+    color: #6a91da;
+}
+
+/* Redes sociales */
+.redes-sociales{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.redes-sociales li{
+    margin: 10px 0;
+}
+
+.redes-sociales a{
+    display: inline-block;
+    background: #3d7df3dc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.redes-sociales a:hover{
+    background: #6a91da;
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background: linear-gradient(90deg, #6a91da, #3366c4);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.3);
+}
+
+footer h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+footer p{
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer ul li a:hover{
+    color: #d9b3ff;
+}
