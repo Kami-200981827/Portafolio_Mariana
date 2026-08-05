@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-boton{
+botón{
     background-color: blue;
     box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
