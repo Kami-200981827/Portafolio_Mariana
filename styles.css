@@ -4,7 +4,7 @@ body {
     line-height: 1.6;   /* Espacio entre las líneas */
     background-color: #f4f4f4; /* Fondo de la página */
     color: #f0d0ff; /* Color del texto */
-    margin: 0;
+    margin: 10px 30px;
     padding: 30px 50px;
 }
 body {
