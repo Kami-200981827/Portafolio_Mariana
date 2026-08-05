@@ -41,7 +41,12 @@ header {
     margin-top: 15px;
     transition: background 0.3s;
 }
-    
+
+}
+
+.btn:hover {
+    background-color: #4a0e5c;
+}
    
 
 header h1 {
